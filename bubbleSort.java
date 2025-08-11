@@ -14,6 +14,7 @@ class mainClass
         {
             arr[i] = sc.nextInt();
         }
+        sc.close();
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
