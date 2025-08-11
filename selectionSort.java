@@ -31,9 +31,12 @@ public static void selectionSort(int arr[])
                     minIndex = j;
                 }
             }
+            if(minIndex != i)
+            {
             int temp = arr[minIndex];
             arr[minIndex] = arr[i];
             arr[i] = temp;
+            }
     }
 }
 }   
