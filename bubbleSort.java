@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-class mainClass
+class MainClass
 {
        public static void main(String args[])
     {
